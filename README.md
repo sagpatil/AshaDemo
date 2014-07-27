@@ -43,6 +43,6 @@ Hence, user can access all the screens by simply scrolling down and scrolling up
 8. Share information about upcoming events like date and RSVP link from app via facebook, twitter, email, etc.
 
 ### Walkthrough gif
-
+![Video Walkthrough](https://raw.githubusercontent.com/sumitsavla/ios-twitter-app/master/twitter2.gif)
 
 
