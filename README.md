@@ -43,11 +43,15 @@ Hence, user can access all the screens by simply scrolling down and scrolling up
 8. Share information about upcoming events like date and RSVP link from app via facebook, twitter, email, etc.
 
 ## Walkthroughs
+
+### Video Demo (click image to launch video)
+<a href="http://vimeo.com/101643126" target="_blank"><img src="http://i.vimeocdn.com/video/483471546_960.jpg" 
+alt="Asha Demo Video" width="400" height="700" border="10" /></a>
+
+
 ### GIF Walkthrough
 ![GIF Walkthrough](https://raw.githubusercontent.com/sagpatil/AshaDemo/master/ashademo2.gif)
 
-### Video Demo (click image to launch)
-<a href="http://vimeo.com/101643126" target="_blank"><img src="http://i.vimeocdn.com/video/483471546_960.jpg" 
-alt="Asha Demo Video" width="400" height="700" border="10" /></a>
+
 
 
