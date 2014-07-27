@@ -48,6 +48,8 @@ Hence, user can access all the screens by simply scrolling down and scrolling up
 <a href="http://vimeo.com/101643126" target="_blank"><img src="http://i.vimeocdn.com/video/483471546_960.jpg" 
 alt="Asha Demo Video" width="400" height="700" border="10" /></a>
 
+<iframe src="//player.vimeo.com/video/101643126?autoplay=1&amp;loop=1" width="500" height="941" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/101643126">Asha Demo video for Codepath</a> from <a href="http://vimeo.com/user30453928">sagar</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 
 ### GIF Walkthrough
 ![GIF Walkthrough](https://raw.githubusercontent.com/sagpatil/AshaDemo/master/ashademo2.gif)
