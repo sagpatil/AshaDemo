@@ -1,19 +1,18 @@
+# iOS app for Asha non-profit
 
-
-About Asha
+## About Asha
 
 
 Asha for Education is a is a volunteer run 501(c) non-profit with 66 chapters around the world whose mission is to catalyze socio-economic change in India through the education of underprivileged children. Till date, Asha has supported more than 400 different  projects  spanning 24 states in India. In terms of project funding, almost $25,000,000 has been disbursed to these projects since Asha's inception. 
 
 Asha raises funds for its projects in a number of ways: individual donations, corporate donations, sale of merchandise (T-shirts, calendars, mugs, greeting cards, etc.), fundraiser events like Holi, Indian classical music and dance concerts, popular music concerts and many others.
 
-
-About App 
+## About App 
 
 App at its core has beautiful and interactive scrollable feed containing information on featured projects as curated by Asha and upcoming fundraiser events nearby user location. User is presented with newly created event page, on scrolling down more events and featured projects are presented to the user. Same scroll view when scrolled up reveals donation and admin screens. 
 Hence, user can access all the screens by simply scrolling down and scrolling up.
 
-Main feature/functionality of App is as follows:
+### Main feature/functionality of App is as follows:
 
 1) Intro splash video on launch of the app, it can be skipped by tapping on the screen
 
@@ -43,7 +42,7 @@ Main feature/functionality of App is as follows:
 
 8) Share information about upcoming events like date and RSVP link from app via facebook, twitter, email, etc.
 
-Walkthrough gif
+### Walkthrough gif
 
 
 
