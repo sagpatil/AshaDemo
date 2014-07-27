@@ -43,11 +43,11 @@ Hence, user can access all the screens by simply scrolling down and scrolling up
 8. Share information about upcoming events like date and RSVP link from app via facebook, twitter, email, etc.
 
 ## Walkthroughs
-![GIF Walkthrough](https://raw.githubusercontent.com/sumitsavla/ios-twitter-app/master/twitter2.gif)
+### GIF Walkthrough
+![GIF Walkthrough](https://raw.githubusercontent.com/sagpatil/AshaDemo/master/ashademo2.gif)
 
-### Video Demo
-<a href="http://vimeo.com/101643126)
-" target="_blank"><img src="http://i.vimeocdn.com/video/483471546_960.jpg" 
-alt="Asha Demo Video" width="240" height="180" border="10" /></a>
-[![Video](http://i.vimeocdn.com/video/483471546_960.jpg)](http://vimeo.com/101643126)
+### Video Demo (click image to launch)
+<a href="http://vimeo.com/101643126" target="_blank"><img src="http://i.vimeocdn.com/video/483471546_960.jpg" 
+alt="Asha Demo Video" width="400" height="700" border="10" /></a>
+
 
