@@ -36,8 +36,7 @@ Hence, user can access all the screens by simply scrolling down and scrolling up
 6. Admin login screen to enable chapter administrator/vounteers to login as admin
    6. Admin can author and post new project and new event
    6. Photos can be added to an event via camera and phone photo gallery
-   6. Implemented custom date picker to select event date/time
-   
+
 7. Share information above projects from app via facebook, twitter, email, etc.
 
 8. Share information about upcoming events like date and RSVP link from app via facebook, twitter, email, etc.
@@ -45,8 +44,8 @@ Hence, user can access all the screens by simply scrolling down and scrolling up
 ## Walkthroughs
 
 ### Video Demo (click image to launch video)
-<a href="http://vimeo.com/101643126" target="_blank"><img src="https://github.com/sagpatil/AshaDemo/blob/master/videothumb.tiff" 
-alt="Asha Demo Video" width="400" height="700" border="10" /></a>
+<a href="http://vimeo.com/101643126" target="_blank"><img src="https://raw.githubusercontent.com/sagpatil/AshaDemo/master/videothumb.png" 
+alt="Asha Demo Video" width="550" height="600" border="10" /></a>
 
 ### GIF Walkthrough
 ![GIF Walkthrough](https://raw.githubusercontent.com/sagpatil/AshaDemo/master/ashademo2.gif)
