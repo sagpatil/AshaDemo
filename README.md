@@ -45,7 +45,7 @@ Hence, user can access all the screens by simply scrolling down and scrolling up
 
 ### Video Demo (click image to launch video)
 <a href="http://vimeo.com/101643126" target="_blank"><img src="https://raw.githubusercontent.com/sagpatil/AshaDemo/master/videothumb.png" 
-alt="Asha Demo Video" width="550" height="600" border="10" /></a>
+alt="Asha Demo Video" width="600" height="452" border="20" /></a>
 
 ### GIF Walkthrough
 ![GIF Walkthrough](https://raw.githubusercontent.com/sagpatil/AshaDemo/master/ashademo2.gif)
