@@ -2,44 +2,42 @@
 
 ## About Asha
 
+Asha for Education is a volunteer run 501(c) non-profit with 66 chapters around the world whose mission is to catalyze socio-economic change in India through the education of underprivileged children. To date, Asha has supported more than 400 different projects spanning 24 states in India. In terms of project funding, almost $25 millon has been disbursed to these projects since Asha's inception. 
 
-Asha for Education is a is a volunteer run 501(c) non-profit with 66 chapters around the world whose mission is to catalyze socio-economic change in India through the education of underprivileged children. Till date, Asha has supported more than 400 different  projects  spanning 24 states in India. In terms of project funding, almost $25,000,000 has been disbursed to these projects since Asha's inception. 
+Asha raises funds for its projects in a number of ways: individual donations, corporate donations, merchandise sales, and fundraiser events like Holi, traditional Indian music and dance concerts, and more.
 
-Asha raises funds for its projects in a number of ways: individual donations, corporate donations, sale of merchandise (T-shirts, calendars, mugs, greeting cards, etc.), fundraiser events like Holi, Indian classical music and dance concerts, popular music concerts and many others.
+## About the App 
 
-## About App 
+At its **core** the Asha app is a beautiful and interactive scrollable feed containing information on featured projects and upcoming local fundraising events curated by Asha. The user is first presented with an upcoming event event page. As the user scrolls down, more events and projects are presented to the user. From the main screen, the user can scroll up to reveal the general donation and admin screens.
 
-App at its **core** has beautiful and interactive scrollable feed containing information on featured projects as curated by Asha and upcoming fundraiser events nearby user location. User is presented with newly created event page, on scrolling down more events and featured projects are presented to the user. Same scroll view when scrolled up reveals donation and admin screens. 
-Hence, user can access all the screens by simply scrolling down and scrolling up.
+### Main features:
 
-### Main feature/functionality of App is as follows:
+1. When the app first launches the user sees an intro video, it can be skipped by tapping on the screen
 
-1. Intro splash video on launch of the app, it can be skipped by tapping on the screen
+1. The user is then presented with a list of projects and events
 
-2. Project screen displays short description and purpose of project
-  2. Project view can be expanded to read complete scrollable description
-  2. Project donation screen can be accessed by tapping 'donate' icon
+  1. Projects 
+    1. Each project includes a photo or video with a short description and purpose of project
+    1. If the user is interested in a project they can expand the description to continue reading and get more details
+    1. The user can make a donation to a specific project by tapping the 'donate' icon
+    2. 1. Users can tap on the 'share' icon to post project details on facebook, twitter, email, etc.
    
-3. Events pages show information related to event like distance from current location, short description and date-time.
-  3. Event view can be expanded as well to reveal more information like address and complete description
-  3. User can tap on date and add an event to phone calendar.
-  3. App is integrated with Apple and Google maps to display exact event location on a map
-  3. RSVP page for the given event can be launched on tapping RSVP button
+  1. Events
+    1. Each event page includes a photo or video, a short description of the event, the date and time of the event, and the distance from current location
+    1. If the user is interested in an event they can expand the description to continue reading and get more details
+    1. User can tap on the date to add the event to their calendar
+    1. User can tap on the event address to get directions with either Apple Maps or Google Maps
+    1. Each event includes a link to the event website where the user can RSVP or purchase tickets
+    1. Users can tap on the 'share' icon to post event details on facebook, twitter, email, etc.
 
-4. Integrated PayPal SDK in app to process payment by 
-   4. Scanning credit card,
-   4. Entering card information and 
-   4. logging in with PayPal account
+1. General donation can be made to Asha via Genral Donate screen
+   1. User can point the iPhone camera at their credit card to automatically input card number
+   1. User can manually enter their credit card information, or 
+   1. User can sign in with their PayPal account
    
-5. General donation can be made to Asha via Genral Donate screen
-
-6. Admin login screen to enable chapter administrator/vounteers to login as admin
-   6. Admin can author and post new project and new event
-   6. Photos can be added to an event via camera and phone photo gallery
-
-7. Share information above projects from app via facebook, twitter, email, etc.
-
-8. Share information about upcoming events like date and RSVP link from app via facebook, twitter, email, etc.
+1. Admin sign in screen for chapter administrators and vounteers
+   1. Once signed in, an administrator can create new projects and events or edit existing ones
+   1. Photos can be added to an event via camera or iPhone photo gallery
 
 ## Walkthroughs
 
