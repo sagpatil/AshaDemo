@@ -8,7 +8,7 @@ Asha raises funds for its projects in a number of ways: individual donations, co
 
 ## About the App 
 
-At its **core** the Asha app is a beautiful and interactive scrollable feed containing information on featured projects and upcoming local fundraising events curated by Asha. The user is first presented with an upcoming event event page. As the user scrolls down, more events and projects are presented to the user. From the main screen, the user can scroll up to reveal the general donation and admin screens.
+At its **core** the Asha app is a beautiful interactive scrollable feed containing information on featured projects and upcoming local fundraising events curated by Asha. The user is first presented with an upcoming event event page. As the user scrolls down, more events and projects are presented to the user. From the main screen, the user can scroll up to reveal the general donation and admin screens.
 
 ### Main features:
 
