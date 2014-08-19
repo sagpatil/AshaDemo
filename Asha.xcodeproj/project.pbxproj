@@ -1,0 +1,957 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C7EFE18197B145E00323A7C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7EFE15197B145E00323A7C /* LoginViewController.m */; };
+		5C7EFE19197B145E00323A7C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7EFE16197B145E00323A7C /* LoginViewController.xib */; };
+		9F179F2D197B53E000FCDF9A /* UIColor+fromHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F179F2B197B53E000FCDF9A /* UIColor+fromHex.m */; };
+		9F38218D196A046D00C8AF42 /* webViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F38218B196A046D00C8AF42 /* webViewController.m */; };
+		9F38218E196A046D00C8AF42 /* webViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F38218C196A046D00C8AF42 /* webViewController.xib */; };
+		9FD4A5DC198BF1B500E006F6 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD4A5D6198BF1B500E006F6 /* CaptureSessionManager.m */; };
+		9FD4A5DD198BF1B500E006F6 /* AROverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD4A5D7198BF1B500E006F6 /* AROverlayViewController.m */; };
+		9FD4A5DE198BF1B500E006F6 /* AROverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD4A5D8198BF1B500E006F6 /* AROverlayViewController.xib */; };
+		9FD4A5DF198BF1B500E006F6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD4A5D9198BF1B500E006F6 /* MainWindow.xib */; };
+		9FD4A5E1198D346600E006F6 /* Capture2SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD4A5E0198D346600E006F6 /* Capture2SessionManager.m */; };
+		9FF188331979F45A008F1A9A /* ProjectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF188321979F45A008F1A9A /* ProjectsViewController.xib */; };
+		C9350E0F197D5F6B0046AEAE /* Cocogoose.otf in Resources */ = {isa = PBXBuildFile; fileRef = C9350E0D197D5F6B0046AEAE /* Cocogoose.otf */; };
+		C9350E10197D5F6B0046AEAE /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C9350E0E197D5F6B0046AEAE /* Gotham-Light.otf */; };
+		F117D15F196A3013009981B8 /* ProjectDonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F117D15D196A3013009981B8 /* ProjectDonateViewController.m */; };
+		F117D160196A3013009981B8 /* ProjectDonateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F117D15E196A3013009981B8 /* ProjectDonateViewController.xib */; };
+		F117D162196A37AD009981B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F117D161196A37AD009981B8 /* CoreLocation.framework */; };
+		F117D164196A37B7009981B8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F117D163196A37B7009981B8 /* SystemConfiguration.framework */; };
+		F117D166196A37D4009981B8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F117D165196A37D4009981B8 /* AVFoundation.framework */; };
+		F117D168196A37DD009981B8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F117D167196A37DD009981B8 /* MessageUI.framework */; };
+		F160BEFD1969DE6300B3F361 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = F160BEFC1969DE6300B3F361 /* Project.m */; };
+		F1646EF1197B1FAE00379D29 /* CoinView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1646EF0197B1FAE00379D29 /* CoinView.m */; };
+		F179BF91197DC8B7001AFB7E /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F179BF90197DC8B7001AFB7E /* EventKit.framework */; };
+		F179BF93197DC8BB001AFB7E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F179BF92197DC8BB001AFB7E /* MapKit.framework */; };
+		F17B9479196EE008009C478F /* NewProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B9477196EE008009C478F /* NewProjectViewController.m */; };
+		F17B947A196EE008009C478F /* NewProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F17B9478196EE008009C478F /* NewProjectViewController.xib */; };
+		F17B9489196F578C009C478F /* NewEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17B9487196F578C009C478F /* NewEventViewController.m */; };
+		F17B948A196F578C009C478F /* NewEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F17B9488196F578C009C478F /* NewEventViewController.xib */; };
+		F17D85C719750B6D00010613 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17D85C619750B6D00010613 /* MediaPlayer.framework */; };
+		F1A3667C198037540019BFD6 /* asha-intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F1A3667B198037540019BFD6 /* asha-intro.mp4 */; };
+		F1A3667F19805D8B0019BFD6 /* boat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F1A3667D19805D8B0019BFD6 /* boat.mp4 */; };
+		F1A3668019805D8B0019BFD6 /* girls.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F1A3667E19805D8B0019BFD6 /* girls.mp4 */; };
+		F1BE7FDF1978A7BA0062B3C0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BE7FDE1978A7BA0062B3C0 /* libPods.a */; };
+		F1BE7FE41978A8850062B3C0 /* TimeLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BE7FE21978A8850062B3C0 /* TimeLineViewController.m */; };
+		F1BE7FE51978A8850062B3C0 /* TimeLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1BE7FE31978A8850062B3C0 /* TimeLineViewController.xib */; };
+		F1E5FB3A198B32E600B9548D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E5FB39198B32E600B9548D /* Social.framework */; };
+		F1E7435F1968F3D200F0FC23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7435E1968F3D200F0FC23 /* Foundation.framework */; };
+		F1E743611968F3D200F0FC23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E743601968F3D200F0FC23 /* CoreGraphics.framework */; };
+		F1E743631968F3D200F0FC23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E743621968F3D200F0FC23 /* UIKit.framework */; };
+		F1E743691968F3D200F0FC23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1E743671968F3D200F0FC23 /* InfoPlist.strings */; };
+		F1E7436B1968F3D200F0FC23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E7436A1968F3D200F0FC23 /* main.m */; };
+		F1E7436F1968F3D200F0FC23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E7436E1968F3D200F0FC23 /* AppDelegate.m */; };
+		F1E743711968F3D200F0FC23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E743701968F3D200F0FC23 /* Images.xcassets */; };
+		F1E743781968F3D200F0FC23 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E743771968F3D200F0FC23 /* XCTest.framework */; };
+		F1E743791968F3D200F0FC23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7435E1968F3D200F0FC23 /* Foundation.framework */; };
+		F1E7437A1968F3D200F0FC23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E743621968F3D200F0FC23 /* UIKit.framework */; };
+		F1E743821968F3D200F0FC23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1E743801968F3D200F0FC23 /* InfoPlist.strings */; };
+		F1E743841968F3D200F0FC23 /* AshaNet_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E743831968F3D200F0FC23 /* AshaNet_iOSTests.m */; };
+		F1E743941968F4FB00F0FC23 /* libPayPalMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E7438E1968F4FB00F0FC23 /* libPayPalMobile.a */; };
+		F1E743AF1968F63F00F0FC23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1E743961968F63F00F0FC23 /* InfoPlist.strings */; };
+		F1E743B01968F63F00F0FC23 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E743991968F63F00F0FC23 /* Event.m */; };
+		F1E743B31968F63F00F0FC23 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E7439E1968F63F00F0FC23 /* EventsViewController.m */; };
+		F1E743B41968F63F00F0FC23 /* EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1E7439F1968F63F00F0FC23 /* EventsViewController.xib */; };
+		F1E743B51968F63F00F0FC23 /* GeneralDonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E743A11968F63F00F0FC23 /* GeneralDonateViewController.m */; };
+		F1E743B61968F63F00F0FC23 /* GeneralDonateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1E743A21968F63F00F0FC23 /* GeneralDonateViewController.xib */; };
+		F1E743B81968F63F00F0FC23 /* PayPalConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E743A51968F63F00F0FC23 /* PayPalConfig.m */; };
+		F1E743BD1968F63F00F0FC23 /* ProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E743AD1968F63F00F0FC23 /* ProjectsViewController.m */; };
+		F1E743BE1968F63F00F0FC23 /* ProjectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1E743AE1968F63F00F0FC23 /* ProjectsViewController.xib */; };
+		F1FC8DCE19765AD600EF2815 /* XOSplashVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FC8DCD19765AD600EF2815 /* XOSplashVideoController.m */; };
+		F1FC8DD519765D0F00EF2815 /* splash-568h~iphone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F1FC8DD019765D0F00EF2815 /* splash-568h~iphone.mp4 */; };
+		F1FC8DD619765D0F00EF2815 /* splash-landscape~ipad.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F1FC8DD119765D0F00EF2815 /* splash-landscape~ipad.mp4 */; };
+		F1FC8DD719765D0F00EF2815 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = F1FC8DD219765D0F00EF2815 /* Splash.png */; };
+		F1FC8DD819765D0F00EF2815 /* splash~ipad.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F1FC8DD319765D0F00EF2815 /* splash~ipad.mp4 */; };
+		F1FC8DD919765D0F00EF2815 /* splash~iphone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F1FC8DD419765D0F00EF2815 /* splash~iphone.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1E7437B1968F3D200F0FC23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1E743531968F3D200F0FC23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1E7435A1968F3D200F0FC23;
+			remoteInfo = AshaNet_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C294B4DC82349AB94CA8F7D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		553BF50067E04585B13E0344 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C7EFE15197B145E00323A7C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5C7EFE16197B145E00323A7C /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		5C7EFE17197B145E00323A7C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9F179F2B197B53E000FCDF9A /* UIColor+fromHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+fromHex.m"; sourceTree = "<group>"; };
+		9F179F2C197B53E000FCDF9A /* UIColor+fromHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+fromHex.h"; sourceTree = "<group>"; };
+		9F38218A196A046D00C8AF42 /* webViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewController.h; sourceTree = "<group>"; };
+		9F38218B196A046D00C8AF42 /* webViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewController.m; sourceTree = "<group>"; };
+		9F38218C196A046D00C8AF42 /* webViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = webViewController.xib; sourceTree = "<group>"; };
+		9FD4A5D6198BF1B500E006F6 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		9FD4A5D7198BF1B500E006F6 /* AROverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AROverlayViewController.m; sourceTree = "<group>"; };
+		9FD4A5D8198BF1B500E006F6 /* AROverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AROverlayViewController.xib; sourceTree = "<group>"; };
+		9FD4A5D9198BF1B500E006F6 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		9FD4A5DA198BF1B500E006F6 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		9FD4A5DB198BF1B500E006F6 /* AROverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AROverlayViewController.h; sourceTree = "<group>"; };
+		9FD4A5E0198D346600E006F6 /* Capture2SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Capture2SessionManager.m; sourceTree = "<group>"; };
+		9FD4A5E2198D347400E006F6 /* Capture2SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Capture2SessionManager.h; sourceTree = "<group>"; };
+		9FF188321979F45A008F1A9A /* ProjectsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectsViewController.xib; sourceTree = "<group>"; };
+		C9350E0D197D5F6B0046AEAE /* Cocogoose.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cocogoose.otf; sourceTree = "<group>"; };
+		C9350E0E197D5F6B0046AEAE /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		F117D15C196A3013009981B8 /* ProjectDonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectDonateViewController.h; sourceTree = "<group>"; };
+		F117D15D196A3013009981B8 /* ProjectDonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectDonateViewController.m; sourceTree = "<group>"; };
+		F117D15E196A3013009981B8 /* ProjectDonateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectDonateViewController.xib; sourceTree = "<group>"; };
+		F117D161196A37AD009981B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F117D163196A37B7009981B8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F117D165196A37D4009981B8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F117D167196A37DD009981B8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F15CE3161978C52400A8EDCD /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		F160BEFB1969DE6300B3F361 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		F160BEFC1969DE6300B3F361 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		F1646EEF197B1FAE00379D29 /* CoinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinView.h; sourceTree = "<group>"; };
+		F1646EF0197B1FAE00379D29 /* CoinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinView.m; sourceTree = "<group>"; };
+		F179BF90197DC8B7001AFB7E /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		F179BF92197DC8BB001AFB7E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F17B946E196E0EC5009C478F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F17B946F196E0EC5009C478F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F17B9470196E0EC5009C478F /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		F17B9476196EE008009C478F /* NewProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewProjectViewController.h; sourceTree = "<group>"; };
+		F17B9477196EE008009C478F /* NewProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewProjectViewController.m; sourceTree = "<group>"; };
+		F17B9478196EE008009C478F /* NewProjectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewProjectViewController.xib; sourceTree = "<group>"; };
+		F17B9486196F578C009C478F /* NewEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewEventViewController.h; sourceTree = "<group>"; };
+		F17B9487196F578C009C478F /* NewEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewEventViewController.m; sourceTree = "<group>"; };
+		F17B9488196F578C009C478F /* NewEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewEventViewController.xib; sourceTree = "<group>"; };
+		F17D85C619750B6D00010613 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F17D85C81975100900010613 /* movie.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = movie.mov; sourceTree = "<group>"; };
+		F1A3667B198037540019BFD6 /* asha-intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "asha-intro.mp4"; sourceTree = "<group>"; };
+		F1A3667D19805D8B0019BFD6 /* boat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = boat.mp4; sourceTree = "<group>"; };
+		F1A3667E19805D8B0019BFD6 /* girls.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = girls.mp4; sourceTree = "<group>"; };
+		F1BE7FDE1978A7BA0062B3C0 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		F1BE7FE11978A8850062B3C0 /* TimeLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineViewController.h; sourceTree = "<group>"; };
+		F1BE7FE21978A8850062B3C0 /* TimeLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineViewController.m; sourceTree = "<group>"; };
+		F1BE7FE31978A8850062B3C0 /* TimeLineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeLineViewController.xib; sourceTree = "<group>"; };
+		F1E5FB39198B32E600B9548D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F1E7435B1968F3D200F0FC23 /* Asha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E7435E1968F3D200F0FC23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1E743601968F3D200F0FC23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1E743621968F3D200F0FC23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1E743661968F3D200F0FC23 /* Asha-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Asha-Info.plist"; sourceTree = "<group>"; };
+		F1E743681968F3D200F0FC23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1E7436A1968F3D200F0FC23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1E7436C1968F3D200F0FC23 /* Asha-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Asha-Prefix.pch"; sourceTree = "<group>"; };
+		F1E7436D1968F3D200F0FC23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1E7436E1968F3D200F0FC23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1E743701968F3D200F0FC23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1E743761968F3D200F0FC23 /* AshaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AshaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E743771968F3D200F0FC23 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F1E7437F1968F3D200F0FC23 /* AshaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AshaTests-Info.plist"; sourceTree = "<group>"; };
+		F1E743811968F3D200F0FC23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1E743831968F3D200F0FC23 /* AshaNet_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AshaNet_iOSTests.m; sourceTree = "<group>"; };
+		F1E7438E1968F4FB00F0FC23 /* libPayPalMobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMobile.a; sourceTree = "<group>"; };
+		F1E7438F1968F4FB00F0FC23 /* PayPalConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalConfiguration.h; sourceTree = "<group>"; };
+		F1E743901968F4FB00F0FC23 /* PayPalFuturePaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalFuturePaymentViewController.h; sourceTree = "<group>"; };
+		F1E743911968F4FB00F0FC23 /* PayPalMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalMobile.h; sourceTree = "<group>"; };
+		F1E743921968F4FB00F0FC23 /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPayment.h; sourceTree = "<group>"; };
+		F1E743931968F4FB00F0FC23 /* PayPalPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPaymentViewController.h; sourceTree = "<group>"; };
+		F1E743971968F63F00F0FC23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F1E743981968F63F00F0FC23 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		F1E743991968F63F00F0FC23 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		F1E7439D1968F63F00F0FC23 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		F1E7439E1968F63F00F0FC23 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		F1E7439F1968F63F00F0FC23 /* EventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsViewController.xib; sourceTree = "<group>"; };
+		F1E743A01968F63F00F0FC23 /* GeneralDonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralDonateViewController.h; sourceTree = "<group>"; };
+		F1E743A11968F63F00F0FC23 /* GeneralDonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralDonateViewController.m; sourceTree = "<group>"; };
+		F1E743A21968F63F00F0FC23 /* GeneralDonateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralDonateViewController.xib; sourceTree = "<group>"; };
+		F1E743A41968F63F00F0FC23 /* PayPalConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalConfig.h; sourceTree = "<group>"; };
+		F1E743A51968F63F00F0FC23 /* PayPalConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPalConfig.m; sourceTree = "<group>"; };
+		F1E743AC1968F63F00F0FC23 /* ProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectsViewController.h; sourceTree = "<group>"; };
+		F1E743AD1968F63F00F0FC23 /* ProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectsViewController.m; sourceTree = "<group>"; };
+		F1E743AE1968F63F00F0FC23 /* ProjectsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectsViewController.xib; sourceTree = "<group>"; };
+		F1FC8DCC19765AD600EF2815 /* XOSplashVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XOSplashVideoController.h; sourceTree = "<group>"; };
+		F1FC8DCD19765AD600EF2815 /* XOSplashVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XOSplashVideoController.m; sourceTree = "<group>"; };
+		F1FC8DD019765D0F00EF2815 /* splash-568h~iphone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "splash-568h~iphone.mp4"; sourceTree = "<group>"; };
+		F1FC8DD119765D0F00EF2815 /* splash-landscape~ipad.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "splash-landscape~ipad.mp4"; sourceTree = "<group>"; };
+		F1FC8DD219765D0F00EF2815 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
+		F1FC8DD319765D0F00EF2815 /* splash~ipad.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "splash~ipad.mp4"; sourceTree = "<group>"; };
+		F1FC8DD419765D0F00EF2815 /* splash~iphone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "splash~iphone.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1E743581968F3D200F0FC23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E5FB3A198B32E600B9548D /* Social.framework in Frameworks */,
+				F179BF93197DC8BB001AFB7E /* MapKit.framework in Frameworks */,
+				F179BF91197DC8B7001AFB7E /* EventKit.framework in Frameworks */,
+				F1BE7FDF1978A7BA0062B3C0 /* libPods.a in Frameworks */,
+				F17D85C719750B6D00010613 /* MediaPlayer.framework in Frameworks */,
+				F117D168196A37DD009981B8 /* MessageUI.framework in Frameworks */,
+				F117D166196A37D4009981B8 /* AVFoundation.framework in Frameworks */,
+				F117D164196A37B7009981B8 /* SystemConfiguration.framework in Frameworks */,
+				F117D162196A37AD009981B8 /* CoreLocation.framework in Frameworks */,
+				F1E743611968F3D200F0FC23 /* CoreGraphics.framework in Frameworks */,
+				F1E743631968F3D200F0FC23 /* UIKit.framework in Frameworks */,
+				F1E7435F1968F3D200F0FC23 /* Foundation.framework in Frameworks */,
+				F1E743941968F4FB00F0FC23 /* libPayPalMobile.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E743731968F3D200F0FC23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E743781968F3D200F0FC23 /* XCTest.framework in Frameworks */,
+				F1E7437A1968F3D200F0FC23 /* UIKit.framework in Frameworks */,
+				F1E743791968F3D200F0FC23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F179F2A197B53CD00FCDF9A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9F179F2B197B53E000FCDF9A /* UIColor+fromHex.m */,
+				9F179F2C197B53E000FCDF9A /* UIColor+fromHex.h */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		9F179F33197CD4EA00FCDF9A /* components */ = {
+			isa = PBXGroup;
+			children = (
+				9F38218A196A046D00C8AF42 /* webViewController.h */,
+				9F38218B196A046D00C8AF42 /* webViewController.m */,
+				9F38218C196A046D00C8AF42 /* webViewController.xib */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		9FD4A5CB198BEA7800E006F6 /* selfie */ = {
+			isa = PBXGroup;
+			children = (
+				9FD4A5D6198BF1B500E006F6 /* CaptureSessionManager.m */,
+				9FD4A5E0198D346600E006F6 /* Capture2SessionManager.m */,
+				9FD4A5D7198BF1B500E006F6 /* AROverlayViewController.m */,
+				9FD4A5D8198BF1B500E006F6 /* AROverlayViewController.xib */,
+				9FD4A5D9198BF1B500E006F6 /* MainWindow.xib */,
+				9FD4A5DA198BF1B500E006F6 /* CaptureSessionManager.h */,
+				9FD4A5E2198D347400E006F6 /* Capture2SessionManager.h */,
+				9FD4A5DB198BF1B500E006F6 /* AROverlayViewController.h */,
+			);
+			name = selfie;
+			sourceTree = "<group>";
+		};
+		F10BFC20197BBCC100AA4E0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1646EEF197B1FAE00379D29 /* CoinView.h */,
+				F1646EF0197B1FAE00379D29 /* CoinView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F10BFC21197BBD3B00AA4E0F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FD4A5CB198BEA7800E006F6 /* selfie */,
+				9F179F33197CD4EA00FCDF9A /* components */,
+				F14A614F197A23A500B00A27 /* NewEventProject */,
+				F14A6150197A23EB00B00A27 /* DonateViewControllers */,
+				F1E7439D1968F63F00F0FC23 /* EventsViewController.h */,
+				F1E7439E1968F63F00F0FC23 /* EventsViewController.m */,
+				F1E7439F1968F63F00F0FC23 /* EventsViewController.xib */,
+				F1E743AC1968F63F00F0FC23 /* ProjectsViewController.h */,
+				F1E743AD1968F63F00F0FC23 /* ProjectsViewController.m */,
+				F1E743AE1968F63F00F0FC23 /* ProjectsViewController.xib */,
+				F1BE7FE11978A8850062B3C0 /* TimeLineViewController.h */,
+				F1BE7FE21978A8850062B3C0 /* TimeLineViewController.m */,
+				F1BE7FE31978A8850062B3C0 /* TimeLineViewController.xib */,
+				F10BFC22197BBD5A00AA4E0F /* Alias View Controllers _ find a way to delete */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F10BFC22197BBD5A00AA4E0F /* Alias View Controllers _ find a way to delete */ = {
+			isa = PBXGroup;
+			children = (
+				F17B946E196E0EC5009C478F /* LoginViewController.h */,
+				F17B946F196E0EC5009C478F /* LoginViewController.m */,
+				F17B9470196E0EC5009C478F /* LoginViewController.xib */,
+				9FF188321979F45A008F1A9A /* ProjectsViewController.xib */,
+			);
+			name = "Alias View Controllers _ find a way to delete";
+			sourceTree = "<group>";
+		};
+		F14A614F197A23A500B00A27 /* NewEventProject */ = {
+			isa = PBXGroup;
+			children = (
+				F17B9476196EE008009C478F /* NewProjectViewController.h */,
+				F17B9477196EE008009C478F /* NewProjectViewController.m */,
+				5C7EFE15197B145E00323A7C /* LoginViewController.m */,
+				5C7EFE16197B145E00323A7C /* LoginViewController.xib */,
+				5C7EFE17197B145E00323A7C /* LoginViewController.h */,
+				F17B9478196EE008009C478F /* NewProjectViewController.xib */,
+				F17B9486196F578C009C478F /* NewEventViewController.h */,
+				F17B9487196F578C009C478F /* NewEventViewController.m */,
+				F17B9488196F578C009C478F /* NewEventViewController.xib */,
+			);
+			name = NewEventProject;
+			sourceTree = "<group>";
+		};
+		F14A6150197A23EB00B00A27 /* DonateViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F117D15C196A3013009981B8 /* ProjectDonateViewController.h */,
+				F117D15D196A3013009981B8 /* ProjectDonateViewController.m */,
+				F117D15E196A3013009981B8 /* ProjectDonateViewController.xib */,
+				F1E743A01968F63F00F0FC23 /* GeneralDonateViewController.h */,
+				F1E743A11968F63F00F0FC23 /* GeneralDonateViewController.m */,
+				F1E743A21968F63F00F0FC23 /* GeneralDonateViewController.xib */,
+			);
+			name = DonateViewControllers;
+			sourceTree = "<group>";
+		};
+		F1BE7FE01978A7D20062B3C0 /* Splash Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F1FC8DCC19765AD600EF2815 /* XOSplashVideoController.h */,
+				F1FC8DCD19765AD600EF2815 /* XOSplashVideoController.m */,
+			);
+			name = "Splash Screens";
+			sourceTree = "<group>";
+		};
+		F1E743521968F3D200F0FC23 = {
+			isa = PBXGroup;
+			children = (
+				F1E7438D1968F4FB00F0FC23 /* PayPalMobile */,
+				F1E743641968F3D200F0FC23 /* AshaNet_iOS */,
+				F1E7437D1968F3D200F0FC23 /* AshaNet_iOSTests */,
+				F1E7435D1968F3D200F0FC23 /* Frameworks */,
+				F1E7435C1968F3D200F0FC23 /* Products */,
+				4C294B4DC82349AB94CA8F7D /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		F1E7435C1968F3D200F0FC23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1E7435B1968F3D200F0FC23 /* Asha.app */,
+				F1E743761968F3D200F0FC23 /* AshaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1E7435D1968F3D200F0FC23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1E5FB39198B32E600B9548D /* Social.framework */,
+				F179BF92197DC8BB001AFB7E /* MapKit.framework */,
+				F179BF90197DC8B7001AFB7E /* EventKit.framework */,
+				F15CE3161978C52400A8EDCD /* Reveal.framework */,
+				F1BE7FDE1978A7BA0062B3C0 /* libPods.a */,
+				F17D85C619750B6D00010613 /* MediaPlayer.framework */,
+				F117D167196A37DD009981B8 /* MessageUI.framework */,
+				F117D165196A37D4009981B8 /* AVFoundation.framework */,
+				F117D163196A37B7009981B8 /* SystemConfiguration.framework */,
+				F117D161196A37AD009981B8 /* CoreLocation.framework */,
+				F1E7435E1968F3D200F0FC23 /* Foundation.framework */,
+				F1E743601968F3D200F0FC23 /* CoreGraphics.framework */,
+				F1E743621968F3D200F0FC23 /* UIKit.framework */,
+				F1E743771968F3D200F0FC23 /* XCTest.framework */,
+				553BF50067E04585B13E0344 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1E743641968F3D200F0FC23 /* AshaNet_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9F179F2A197B53CD00FCDF9A /* Categories */,
+				F1E743C11968FAB000F0FC23 /* Models */,
+				F10BFC20197BBCC100AA4E0F /* Views */,
+				F1BE7FE01978A7D20062B3C0 /* Splash Screens */,
+				F10BFC21197BBD3B00AA4E0F /* ViewControllers */,
+				F1E7436D1968F3D200F0FC23 /* AppDelegate.h */,
+				F1E7436E1968F3D200F0FC23 /* AppDelegate.m */,
+				F1E743951968F63F00F0FC23 /* en.lproj */,
+				F1E743701968F3D200F0FC23 /* Images.xcassets */,
+				F1FC8DCF19765D0F00EF2815 /* Resources */,
+				F1E743651968F3D200F0FC23 /* Supporting Files */,
+			);
+			path = AshaNet_iOS;
+			sourceTree = "<group>";
+		};
+		F1E743651968F3D200F0FC23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1E743661968F3D200F0FC23 /* Asha-Info.plist */,
+				F1E743671968F3D200F0FC23 /* InfoPlist.strings */,
+				F17D85C81975100900010613 /* movie.mov */,
+				F1E7436A1968F3D200F0FC23 /* main.m */,
+				F1E7436C1968F3D200F0FC23 /* Asha-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1E7437D1968F3D200F0FC23 /* AshaNet_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1E743831968F3D200F0FC23 /* AshaNet_iOSTests.m */,
+				F1E7437E1968F3D200F0FC23 /* Supporting Files */,
+			);
+			path = AshaNet_iOSTests;
+			sourceTree = "<group>";
+		};
+		F1E7437E1968F3D200F0FC23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1E7437F1968F3D200F0FC23 /* AshaTests-Info.plist */,
+				F1E743801968F3D200F0FC23 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1E7438D1968F4FB00F0FC23 /* PayPalMobile */ = {
+			isa = PBXGroup;
+			children = (
+				F1E7438E1968F4FB00F0FC23 /* libPayPalMobile.a */,
+				F1E7438F1968F4FB00F0FC23 /* PayPalConfiguration.h */,
+				F1E743901968F4FB00F0FC23 /* PayPalFuturePaymentViewController.h */,
+				F1E743911968F4FB00F0FC23 /* PayPalMobile.h */,
+				F1E743921968F4FB00F0FC23 /* PayPalPayment.h */,
+				F1E743931968F4FB00F0FC23 /* PayPalPaymentViewController.h */,
+			);
+			path = PayPalMobile;
+			sourceTree = "<group>";
+		};
+		F1E743951968F63F00F0FC23 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F1E743961968F63F00F0FC23 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		F1E743C11968FAB000F0FC23 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1E743A41968F63F00F0FC23 /* PayPalConfig.h */,
+				F1E743A51968F63F00F0FC23 /* PayPalConfig.m */,
+				F1E743981968F63F00F0FC23 /* Event.h */,
+				F1E743991968F63F00F0FC23 /* Event.m */,
+				F160BEFB1969DE6300B3F361 /* Project.h */,
+				F160BEFC1969DE6300B3F361 /* Project.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F1FC8DCF19765D0F00EF2815 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1FC8DD019765D0F00EF2815 /* splash-568h~iphone.mp4 */,
+				F1A3667D19805D8B0019BFD6 /* boat.mp4 */,
+				F1A3667E19805D8B0019BFD6 /* girls.mp4 */,
+				C9350E0D197D5F6B0046AEAE /* Cocogoose.otf */,
+				C9350E0E197D5F6B0046AEAE /* Gotham-Light.otf */,
+				F1FC8DD119765D0F00EF2815 /* splash-landscape~ipad.mp4 */,
+				F1FC8DD219765D0F00EF2815 /* Splash.png */,
+				F1A3667B198037540019BFD6 /* asha-intro.mp4 */,
+				F1FC8DD319765D0F00EF2815 /* splash~ipad.mp4 */,
+				F1FC8DD419765D0F00EF2815 /* splash~iphone.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1E7435A1968F3D200F0FC23 /* Asha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E743871968F3D200F0FC23 /* Build configuration list for PBXNativeTarget "Asha" */;
+			buildPhases = (
+				DD90C3852AF849BE83C92DCD /* Check Pods Manifest.lock */,
+				F1E743571968F3D200F0FC23 /* Sources */,
+				F1E743581968F3D200F0FC23 /* Frameworks */,
+				F1E743591968F3D200F0FC23 /* Resources */,
+				FCB7B901F4BD4E76AE4C6FB6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asha;
+			productName = AshaNet_iOS;
+			productReference = F1E7435B1968F3D200F0FC23 /* Asha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1E743751968F3D200F0FC23 /* AshaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E7438A1968F3D200F0FC23 /* Build configuration list for PBXNativeTarget "AshaTests" */;
+			buildPhases = (
+				F1E743721968F3D200F0FC23 /* Sources */,
+				F1E743731968F3D200F0FC23 /* Frameworks */,
+				F1E743741968F3D200F0FC23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E7437C1968F3D200F0FC23 /* PBXTargetDependency */,
+			);
+			name = AshaTests;
+			productName = AshaNet_iOSTests;
+			productReference = F1E743761968F3D200F0FC23 /* AshaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1E743531968F3D200F0FC23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Patil, Sagar";
+				TargetAttributes = {
+					F1E7435A1968F3D200F0FC23 = {
+						DevelopmentTeam = GYH3YD87R7;
+						DevelopmentTeam = M8DS7DDJFV;
+					};
+					F1E743751968F3D200F0FC23 = {
+						TestTargetID = F1E7435A1968F3D200F0FC23;
+					};
+				};
+			};
+			buildConfigurationList = F1E743561968F3D200F0FC23 /* Build configuration list for PBXProject "Asha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F1E743521968F3D200F0FC23;
+			productRefGroup = F1E7435C1968F3D200F0FC23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1E7435A1968F3D200F0FC23 /* Asha */,
+				F1E743751968F3D200F0FC23 /* AshaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1E743591968F3D200F0FC23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD4A5DE198BF1B500E006F6 /* AROverlayViewController.xib in Resources */,
+				5C7EFE19197B145E00323A7C /* LoginViewController.xib in Resources */,
+				F1A3668019805D8B0019BFD6 /* girls.mp4 in Resources */,
+				F1A3667C198037540019BFD6 /* asha-intro.mp4 in Resources */,
+				F1E743B61968F63F00F0FC23 /* GeneralDonateViewController.xib in Resources */,
+				F1E743BE1968F63F00F0FC23 /* ProjectsViewController.xib in Resources */,
+				9FD4A5DF198BF1B500E006F6 /* MainWindow.xib in Resources */,
+				9FF188331979F45A008F1A9A /* ProjectsViewController.xib in Resources */,
+				F1E743B41968F63F00F0FC23 /* EventsViewController.xib in Resources */,
+				F17B947A196EE008009C478F /* NewProjectViewController.xib in Resources */,
+				F1FC8DD519765D0F00EF2815 /* splash-568h~iphone.mp4 in Resources */,
+				F1FC8DD919765D0F00EF2815 /* splash~iphone.mp4 in Resources */,
+				F1FC8DD819765D0F00EF2815 /* splash~ipad.mp4 in Resources */,
+				F1FC8DD619765D0F00EF2815 /* splash-landscape~ipad.mp4 in Resources */,
+				F17B948A196F578C009C478F /* NewEventViewController.xib in Resources */,
+				F1BE7FE51978A8850062B3C0 /* TimeLineViewController.xib in Resources */,
+				F1E743691968F3D200F0FC23 /* InfoPlist.strings in Resources */,
+				F1FC8DD719765D0F00EF2815 /* Splash.png in Resources */,
+				F1E743AF1968F63F00F0FC23 /* InfoPlist.strings in Resources */,
+				F1A3667F19805D8B0019BFD6 /* boat.mp4 in Resources */,
+				9F38218E196A046D00C8AF42 /* webViewController.xib in Resources */,
+				C9350E10197D5F6B0046AEAE /* Gotham-Light.otf in Resources */,
+				C9350E0F197D5F6B0046AEAE /* Cocogoose.otf in Resources */,
+				F117D160196A3013009981B8 /* ProjectDonateViewController.xib in Resources */,
+				F1E743711968F3D200F0FC23 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E743741968F3D200F0FC23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E743821968F3D200F0FC23 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD90C3852AF849BE83C92DCD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB7B901F4BD4E76AE4C6FB6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1E743571968F3D200F0FC23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E743BD1968F63F00F0FC23 /* ProjectsViewController.m in Sources */,
+				F117D15F196A3013009981B8 /* ProjectDonateViewController.m in Sources */,
+				F1BE7FE41978A8850062B3C0 /* TimeLineViewController.m in Sources */,
+				F1E743B51968F63F00F0FC23 /* GeneralDonateViewController.m in Sources */,
+				9FD4A5E1198D346600E006F6 /* Capture2SessionManager.m in Sources */,
+				F1646EF1197B1FAE00379D29 /* CoinView.m in Sources */,
+				9FD4A5DC198BF1B500E006F6 /* CaptureSessionManager.m in Sources */,
+				F1E743B81968F63F00F0FC23 /* PayPalConfig.m in Sources */,
+				F17B9479196EE008009C478F /* NewProjectViewController.m in Sources */,
+				5C7EFE18197B145E00323A7C /* LoginViewController.m in Sources */,
+				F160BEFD1969DE6300B3F361 /* Project.m in Sources */,
+				9FD4A5DD198BF1B500E006F6 /* AROverlayViewController.m in Sources */,
+				F1E743B31968F63F00F0FC23 /* EventsViewController.m in Sources */,
+				9F38218D196A046D00C8AF42 /* webViewController.m in Sources */,
+				F1E743B01968F63F00F0FC23 /* Event.m in Sources */,
+				9F179F2D197B53E000FCDF9A /* UIColor+fromHex.m in Sources */,
+				F1E7436F1968F3D200F0FC23 /* AppDelegate.m in Sources */,
+				F1E7436B1968F3D200F0FC23 /* main.m in Sources */,
+				F1FC8DCE19765AD600EF2815 /* XOSplashVideoController.m in Sources */,
+				F17B9489196F578C009C478F /* NewEventViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E743721968F3D200F0FC23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E743841968F3D200F0FC23 /* AshaNet_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1E7437C1968F3D200F0FC23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1E7435A1968F3D200F0FC23 /* Asha */;
+			targetProxy = F1E7437B1968F3D200F0FC23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1E743671968F3D200F0FC23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1E743681968F3D200F0FC23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F1E743801968F3D200F0FC23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1E743811968F3D200F0FC23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F1E743961968F63F00F0FC23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1E743971968F63F00F0FC23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1E743851968F3D200F0FC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1E743861968F3D200F0FC23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1E743881968F3D200F0FC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C294B4DC82349AB94CA8F7D /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AshaNet_iOS/Asha-Prefix.pch";
+				INFOPLIST_FILE = "AshaNet_iOS/Asha-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayPalMobile",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreLocation,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Parse,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					StoreKit,
+					"-framework",
+					SystemConfiguration,
+					"-weak_framework",
+					Accounts,
+					"-weak_framework",
+					Security,
+					"-weak_framework",
+					Social,
+					"-lc++",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_NAME = Asha;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1E743891968F3D200F0FC23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C294B4DC82349AB94CA8F7D /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AshaNet_iOS/Asha-Prefix.pch";
+				INFOPLIST_FILE = "AshaNet_iOS/Asha-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayPalMobile",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreLocation,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Parse,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					StoreKit,
+					"-framework",
+					SystemConfiguration,
+					"-weak_framework",
+					Accounts,
+					"-weak_framework",
+					Security,
+					"-weak_framework",
+					Social,
+					"-lc++",
+				);
+				PRODUCT_NAME = Asha;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F1E7438B1968F3D200F0FC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AshaNet_iOS.app/AshaNet_iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AshaNet_iOS/AshaNet_iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AshaNet_iOSTests/AshaTests-Info.plist";
+				PRODUCT_NAME = AshaTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F1E7438C1968F3D200F0FC23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AshaNet_iOS.app/AshaNet_iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AshaNet_iOS/AshaNet_iOS-Prefix.pch";
+				INFOPLIST_FILE = "AshaNet_iOSTests/AshaTests-Info.plist";
+				PRODUCT_NAME = AshaTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1E743561968F3D200F0FC23 /* Build configuration list for PBXProject "Asha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E743851968F3D200F0FC23 /* Debug */,
+				F1E743861968F3D200F0FC23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E743871968F3D200F0FC23 /* Build configuration list for PBXNativeTarget "Asha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E743881968F3D200F0FC23 /* Debug */,
+				F1E743891968F3D200F0FC23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E7438A1968F3D200F0FC23 /* Build configuration list for PBXNativeTarget "AshaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E7438B1968F3D200F0FC23 /* Debug */,
+				F1E7438C1968F3D200F0FC23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1E743531968F3D200F0FC23 /* Project object */;
+}

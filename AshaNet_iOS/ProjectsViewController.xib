@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProjectsViewController">
+            <connections>
+                <outlet property="DescriptionLabel" destination="2Py-1A-iNH" id="NNN-G7-nQI"/>
+                <outlet property="baseView" destination="LNT-A1-GFc" id="mPp-IQ-ziU"/>
+                <outlet property="camView" destination="BVD-qE-wEd" id="kVZ-Zv-6Bx"/>
+                <outlet property="descriptionLabel" destination="2Py-1A-iNH" id="fmt-P9-aYX"/>
+                <outlet property="detailsView" destination="pbI-JY-J2v" id="OQe-xG-S3b"/>
+                <outlet property="donateView" destination="xRA-z3-ar7" id="Wb6-dU-CKU"/>
+                <outlet property="fbCirView" destination="RjY-NB-HNu" id="bc7-v8-umY"/>
+                <outlet property="idonatedImg" destination="8fg-au-VN6" id="eWq-9P-yUQ"/>
+                <outlet property="imageView" destination="X5B-LU-Abd" id="dOE-A3-yJr"/>
+                <outlet property="instaCirVIew" destination="O8g-B9-pmE" id="6CQ-Fw-Tmk"/>
+                <outlet property="moreButton" destination="kcv-3a-bne" id="XTN-lE-wBL"/>
+                <outlet property="nameLbl" destination="4YW-1J-Wkg" id="Rky-zr-ETp"/>
+                <outlet property="nameUIView" destination="8Fh-EX-dVK" id="JP7-U1-Xte"/>
+                <outlet property="previewImg" destination="S60-n8-M9o" id="5cq-1E-HQk"/>
+                <outlet property="retakeCirView" destination="bh3-jd-mfX" id="zq0-jf-N0L"/>
+                <outlet property="scrollView" destination="ajO-AJ-D3U" id="VFk-NH-iub"/>
+                <outlet property="selfieLbl" destination="XCQ-Cr-vX6" id="351-VY-0OZ"/>
+                <outlet property="selfieView" destination="bYj-QI-gNH" id="FS4-Bw-GfL"/>
+                <outlet property="shareImgView" destination="piB-Ji-OU5" id="2sb-0y-5l8"/>
+                <outlet property="shareSelfieView" destination="Sqi-tg-pbq" id="03h-W1-YiD"/>
+                <outlet property="shareView" destination="8UH-Tj-4zG" id="hWp-r6-Oa9"/>
+                <outlet property="shareViewCircle1" destination="05d-aW-CJX" id="eBN-A3-62Q"/>
+                <outlet property="shareViewCircle2" destination="1FO-v5-6Zt" id="jXu-E2-nQK"/>
+                <outlet property="slotImgView" destination="Nqi-cP-rEp" id="lHH-5Z-CkF"/>
+                <outlet property="snapBtn" destination="7he-x8-1CX" id="gvY-nc-VXJ"/>
+                <outlet property="successView" destination="PJq-Ym-9RI" id="oTx-ng-lbR"/>
+                <outlet property="toRotateView" destination="lgh-cB-iGt" id="zjj-2Z-dAK"/>
+                <outlet property="twitCirVIew" destination="i5E-9j-wXx" id="bFI-CQ-2e2"/>
+                <outlet property="typeLbl" destination="d33-XD-U4x" id="dtV-xc-6Z1"/>
+                <outlet property="usdBtn" destination="yIe-wG-b52" id="OfT-C4-0rj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="8UH-Tj-4zG" userLabel="shareView">
+                    <rect key="frame" x="0.0" y="522" width="260" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twitter" id="05d-aW-CJX">
+                            <rect key="frame" x="20" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="h45-dW-Edb" userLabel="twitterButton">
+                            <rect key="frame" x="20" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                            </accessibility>
+                            <state key="normal" image="twitter-small">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onTwitterTap:" destination="-1" eventType="touchUpInside" id="7Uk-1T-2O3"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebook" id="1FO-v5-6Zt">
+                            <rect key="frame" x="80" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZaK-nO-JDj" userLabel="FBButton">
+                            <rect key="frame" x="80" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                            </accessibility>
+                            <state key="normal" image="facebook-small">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onFBTap:" destination="-1" eventType="touchUpInside" id="gfg-Bf-cjU"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="lgh-cB-iGt" userLabel="toRotate">
+                    <rect key="frame" x="-90" y="-166" width="550" height="1100"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="xRA-z3-ar7" userLabel="DonateViewS">
+                    <rect key="frame" x="2" y="100" width="320" height="450"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" alpha="0.59999999999999964" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slot" id="Nqi-cP-rEp">
+                            <rect key="frame" x="42" y="-9" width="44" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yIe-wG-b52">
+                            <rect key="frame" x="37" y="-15" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="coin">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onDollarClick:" destination="-1" eventType="touchUpInside" id="rSP-aK-ewt"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="LNT-A1-GFc" userLabel="base">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash.png" id="X5B-LU-Abd">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" id="pbI-JY-J2v" userLabel="SlideUpDetails">
+                            <rect key="frame" x="0.0" y="315" width="320" height="411"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="share-icon" id="piB-Ji-OU5">
+                                    <rect key="frame" x="20" y="195" width="19" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kcv-3a-bne" userLabel="MoreButton">
+                                    <rect key="frame" x="98" y="170" width="95" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="MORE...">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onMoreClick:" destination="-1" eventType="touchUpInside" id="MRn-6x-z4H"/>
+                                    </connections>
+                                </button>
+                                <scrollView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" id="ajO-AJ-D3U">
+                                    <rect key="frame" x="0.0" y="-1" width="320" height="160"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INTERNSHIP" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="d33-XD-U4x" userLabel="type">
+                                            <rect key="frame" x="20" y="5" width="280" height="45"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2Py-1A-iNH" userLabel="DescriptionLabel">
+                                            <rect key="frame" x="20" y="39" width="280" height="140"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="Description ">
+                                                    <attributes>
+                                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineSpacing="24"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </scrollView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="8Fh-EX-dVK" userLabel="nameVIew">
+                            <rect key="frame" x="0.0" y="20" width="238" height="46"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PROJECT NAME" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4YW-1J-Wkg">
+                                    <rect key="frame" x="20" y="12" width="131" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="0.60128984649999995" blue="0.22409939470000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" notEnabled="YES"/>
+                            </accessibility>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+        <view opaque="NO" contentMode="scaleToFill" id="PJq-Ym-9RI" userLabel="SucessPayment">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7he-x8-1CX">
+                    <rect key="frame" x="40" y="319" width="240" height="60"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="27"/>
+                    <state key="normal" title="SNAP">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="snapTap:" destination="-1" eventType="touchUpInside" id="IT1-UI-EQl"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" id="bYj-QI-gNH">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="S60-n8-M9o">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="i-donated-selfie" id="8fg-au-VN6">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" id="BVD-qE-wEd">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(TAKE YOUR SELFLESS SELFIE)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XCQ-Cr-vX6">
+                    <rect key="frame" x="0.0" y="387" width="321" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view hidden="YES" contentMode="scaleToFill" id="Sqi-tg-pbq" userLabel="shareView">
+                    <rect key="frame" x="30" y="416" width="260" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map" id="bh3-jd-mfX" userLabel="Image View - retake">
+                            <rect key="frame" x="20" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RJp-Gb-GV7" userLabel="retakeButton">
+                            <rect key="frame" x="20" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                            </accessibility>
+                            <state key="normal" image="retake">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="retakeTap:" destination="-1" eventType="touchUpInside" id="Ost-qJ-RGK"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map" id="i5E-9j-wXx" userLabel="Image View - twitter">
+                            <rect key="frame" x="140" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="q6V-yL-Mwp" userLabel="TwitterButton">
+                            <rect key="frame" x="140" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                            </accessibility>
+                            <state key="normal" image="twitter-small">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="ontwitterSelfie:" destination="-1" eventType="touchUpInside" id="MLo-l5-ZsL"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map" id="RjY-NB-HNu">
+                            <rect key="frame" x="80" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EwV-le-UbQ" userLabel="FBbutton">
+                            <rect key="frame" x="80" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                            </accessibility>
+                            <state key="normal" image="facebook-small">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="sharefb:" destination="-1" eventType="touchUpInside" id="P8T-dU-n9d"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map" id="O8g-B9-pmE" userLabel="instagram View">
+                            <rect key="frame" x="200" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MAI-MQ-A7v" userLabel="instagramBtn">
+                            <rect key="frame" x="200" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
+                            </accessibility>
+                            <state key="normal" image="instagram-1">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onInstagramSelfie:" destination="-1" eventType="touchUpInside" id="Pv4-aN-QzL"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+        </view>
+    </objects>
+    <resources>
+        <image name="Splash.png" width="640" height="1136"/>
+        <image name="coin" width="39" height="40"/>
+        <image name="facebook" width="57" height="57"/>
+        <image name="facebook-small" width="11" height="25"/>
+        <image name="i-donated-selfie" width="319" height="319"/>
+        <image name="instagram-1" width="26" height="26"/>
+        <image name="map" width="39" height="40"/>
+        <image name="retake" width="34" height="28"/>
+        <image name="share-icon" width="19" height="26"/>
+        <image name="slot" width="44" height="44"/>
+        <image name="twitter" width="60" height="49"/>
+        <image name="twitter-small" width="23" height="20"/>
+    </resources>
+</document>
